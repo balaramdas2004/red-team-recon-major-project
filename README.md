@@ -53,6 +53,7 @@ red_team_recon/
 
 ![Amass Output](images/Screenshot_2025-07-31_05-45-0.png)
 
+![Amass Output](images/Screenshot_2025-07-31_05-46-13.png)
 
 
 ---
