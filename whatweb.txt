@@ -1,0 +1,1 @@
+example.com [200 OK] Country[UNITED STATES][US], HTTPServer[AkamaiGHost], X-Powered-By[Akamai], IP[93.184.216.34]

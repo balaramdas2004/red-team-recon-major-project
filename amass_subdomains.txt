@@ -1,0 +1,3 @@
+[92mexample.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mb.iana-servers.net[0m[94m (FQDN)[0m
+[92mexample.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92ma.iana-servers.net[0m[94m (FQDN)[0m
+[92mwww.example.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwww.example.com-v4.edgesuite.net[0m[94m (FQDN)[0m

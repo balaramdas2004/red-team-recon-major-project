@@ -1,0 +1,7 @@
+Emails found:
+  admin@example.com
+  support@example.com
+
+Hosts found:
+  mail.example.com
+  vpn.example.com
