@@ -55,35 +55,32 @@ red_team_recon/
 git clone https://github.com/balaramdas2004/red-team-recon-major-project.git
 cd red-team-recon-major-project
 
----
-##2️⃣ Install required tools
+##2️ Install required tools
 sudo apt update
 sudo apt install amass subfinder nmap whatweb theharvester whois -y
 
----
 ##Run Amass
 amass enum -passive -d example.com -o amass_subdomains.txt
----
+
 ##Run Subfinder
 subfinder -d example.com -o subfinder_subdomains.txt
----
+
 ##Combine results
 cat amass_subdomains.txt subfinder_subdomains.txt | sort -u > all_subdomains.txt
----
+
 ##Run WHOIS
 whois example.com > whois.txt
----
+
 ##Web Fingerprinting
 whatweb example.com > whatweb.txt
----
+
 ##Email & Host Harvesting
 theHarvester -d example.com -b all > theharvester_results.txt
----
+
 ##Nmap Port Scan
 nmap -iL all_subdomains.txt -oN nmap_results.txt
 
 ---
-
 📜 License
 This project is licensed under the MIT License – free to use for learning and research.
 
