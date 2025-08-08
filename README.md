@@ -44,6 +44,7 @@ red_team_recon/
 │── images/ # Screenshots of execution & results
 │── README.md # This documentation
 
+![Project Banner](images/banner.png)
 
 ---
 
