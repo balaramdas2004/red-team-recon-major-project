@@ -44,7 +44,8 @@ red_team_recon/
 │── images/ # Screenshots of execution & results
 │── README.md # This documentation
 
-![Project Banner](images/banner.png)
+![Amass Output](images/Screenshot_2025-07-31_02-11-43.png)
+
 
 ---
 
