@@ -80,10 +80,8 @@ theHarvester -d example.com -b all > theharvester_results.txt
 ---
 ##Nmap Port Scan
 nmap -iL all_subdomains.txt -oN nmap_results.txt
+
 ---
-📸 Screenshots
-Screenshots of execution and results are stored in the images/ folder.
-Replace placeholders in your project report with these actual images.
 
 📜 License
 This project is licensed under the MIT License – free to use for learning and research.
