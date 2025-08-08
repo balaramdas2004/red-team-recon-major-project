@@ -43,3 +43,23 @@ red_team_recon/
 │── whois.txt # WHOIS lookup details
 │── images/ # Screenshots of execution & results
 │── README.md # This documentation
+
+## ⚙ Installation
+
+**1️⃣ Clone the repository**
+```bash
+git clone https://github.com/balaramdas2004/red-team-recon-major-project.git
+cd red-team-recon-major-project
+
+Notice here:
+- The first triple backticks should be **\`\`\`bash** (not yaml).
+- The last triple backticks should **close immediately after commands**, with no extra indentation.
+- There must be a blank line before and after the code block.
+
+3. Save (CTRL + O, Enter) and exit (CTRL + X).
+
+4. Push to GitHub:
+```bash
+git add README.md
+git commit -m "Fixed code block formatting"
+git push
