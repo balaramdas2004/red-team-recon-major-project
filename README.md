@@ -59,12 +59,13 @@ red_team_recon/
 
 
 ---
-📜 License
+📜 License:
 This project is licensed under the MIT License – free to use for learning and research.
 
 ---
-✍️ Author
-Balaram Das
+✍️ Author:
+Balaram Das,
+
 GitHub: balaramdas2004
 
 ---
