@@ -45,7 +45,11 @@ red_team_recon/
 │── README.md # This documentation
 
 ![Amass Output](images/Screenshot_2025-07-31_02-11-43.png)
+
 ![Amass Output](images/Screenshot_2025-07-3105-44-24.png)
+
+![Amass Output](images/Screenshot_2025-07-31_02-11-44.png)
+
 
 
 ---
