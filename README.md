@@ -59,6 +59,13 @@ red_team_recon/
 
 
 ---
+📜 License
+This project is licensed under the MIT License – free to use for learning and research.
+
+✍️ Author
+Balaram Das
+GitHub: balaramdas2004
+---
 
 ## ⚙️ Installation
 
@@ -92,11 +99,4 @@ theHarvester -d example.com -b all > theharvester_results.txt
 ##Nmap Port Scan
 nmap -iL all_subdomains.txt -oN nmap_results.txt
 
----
-#
-📜 License
-This project is licensed under the MIT License – free to use for learning and research.
 
-✍️ Author
-Balaram Das
-GitHub: balaramdas2004
