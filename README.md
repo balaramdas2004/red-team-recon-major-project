@@ -62,4 +62,32 @@ sudo apt install amass subfinder nmap whatweb theharvester whois -y
 ---
 ##Run Amass
 amass enum -passive -d example.com -o amass_subdomains.txt
+---
+##Run Subfinder
+subfinder -d example.com -o subfinder_subdomains.txt
+---
+##Combine results
+cat amass_subdomains.txt subfinder_subdomains.txt | sort -u > all_subdomains.txt
+---
+##Run WHOIS
+whois example.com > whois.txt
+---
+##Web Fingerprinting
+whatweb example.com > whatweb.txt
+---
+##Email & Host Harvesting
+theHarvester -d example.com -b all > theharvester_results.txt
+---
+##Nmap Port Scan
+nmap -iL all_subdomains.txt -oN nmap_results.txt
+---
+📸 Screenshots
+Screenshots of execution and results are stored in the images/ folder.
+Replace placeholders in your project report with these actual images.
 
+📜 License
+This project is licensed under the MIT License – free to use for learning and research.
+
+✍️ Author
+Balaram Das
+GitHub: balaramdas2004
